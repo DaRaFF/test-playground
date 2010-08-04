@@ -2,22 +2,22 @@ console.log("--- object_visibility ---");
 
 var Auto = function(startBenzin) {
 	//constructor
-        //public variable
+    //public variable
 	this.benzinStand = startBenzin;
 
-        //private variable
-        var anzahlRaeder = 4;
+    //private variable
+    var anzahlRaeder = 4;
 
-        //global variable
-        globalBlubb = 17;
+    //global variable
+    globalBlubb = 17;
 
 
-        //public function
+    //public function
 	this.schaueBenzin = function() {
             return "Der Benzinstand beträgt "+this.benzinStand+" Liter";
 	};
 
-        //private function
+    //private function
 	var gasGeben = function() {
 		this.benzinStand--;
 	};

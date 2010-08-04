@@ -17,7 +17,7 @@ var meinObjekt = {
 
 
 //NAMESPACES
-//
+
 //create namespaces with object literals
 var namespace = {
     caching: {},

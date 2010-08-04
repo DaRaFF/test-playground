@@ -4,7 +4,9 @@ console.log("--- js_behaviour ---");
 //init namespace with some functions and objects
 function TheGreat() {}
 
-TheGreat.imGreater = function () {return "imGreater";}
+TheGreat.imGreater = function () {
+    return "imGreater";
+}
 
 TheGreat.imAlsoGreater = function () {
     this.a = 11;
