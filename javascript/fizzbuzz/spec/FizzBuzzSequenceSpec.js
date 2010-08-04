@@ -1,4 +1,4 @@
-describe("FizzBuzzSequence", function() {
+describe('FizzBuzzSequence', function() {
 
     it('should return String "1" in a sequence from 1 to 1', function () {
         var fizzBuzzSequence = new FizzBuzzSequence(1,1);

@@ -1,7 +1,7 @@
 FizzBuzzSequence = function(start, end){
     var start = start;
     var end = end;
-    var calculatedString = "";
+    var calculatedString = '';
 
     (function(){
         var arr = [];

@@ -1,6 +1,6 @@
-describe("FizzBuzz", function() {
+describe('FizzBuzz', function() {
 
-    describe("when no special rule catches", function(){
+    describe('when no special rule catches', function(){
         it('should return 1 if I put 1 into Fizzbuzzer', function () {
             var value = FizzBuzz.getFizzBuzzValueOf(1);
             expect(1).toEqual(value);
@@ -12,7 +12,7 @@ describe("FizzBuzz", function() {
     });
 
 
-    describe("when a fizzbuzz rule catches", function(){
+    describe('when a fizzbuzz rule catches', function(){
         it('should return Fizz if I put 3 into Fizzbuzzer', function () {
             var value = FizzBuzz.getFizzBuzzValueOf(3);
             expect("Fizz").toEqual(value);
@@ -27,7 +27,7 @@ describe("FizzBuzz", function() {
         });
     });
 
-    describe("when a multiple fizzbuzz rule catches", function(){
+    describe('when a multiple fizzbuzz rule catches', function(){
         it('should return Fizz if I put 6 into Fizzbuzzer', function () {
             var value = FizzBuzz.getFizzBuzzValueOf(6);
             expect("Fizz").toEqual(value);
