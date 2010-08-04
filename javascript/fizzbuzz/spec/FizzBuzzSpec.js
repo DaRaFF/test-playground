@@ -38,4 +38,3 @@ describe("FizzBuzz", function() {
         });
     });
 });
-

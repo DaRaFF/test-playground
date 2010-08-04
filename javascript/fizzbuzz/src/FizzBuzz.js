@@ -1,4 +1,4 @@
-var FizzBuzz = {
+FizzBuzz = {
     getFizzBuzzValueOf: function(value){
         if(value % 15 === 0){
             return "FizzBuzz";
