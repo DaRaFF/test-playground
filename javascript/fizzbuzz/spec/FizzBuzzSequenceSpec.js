@@ -1,7 +1,7 @@
 describe("FizzBuzzSequence", function() {
-    it('should be a test', function () {
-        var foo = 0;
-        foo++;
+    it('should be initialised', function () {
+        var fizzBuzzSequence = new FizzBuzzSequence(1,1);
+        expect(fizzBuzzSequence).toBeDefined();
     });
 
     it('should be a test', function () {

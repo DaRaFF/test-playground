@@ -1,6 +1,19 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+var FizzBuzz = {
+    getFizzBuzzValueOf: function(value){
+        if(value % 15 === 0){
+            return "FizzBuzz";
+        }
+        if(value % 3 === 0){
+            return "Fizz";
+        }
+        if(value % 5 === 0){
+            return "Buzz";
+        }
+        return value;
+    }
+}
+
+
+
 
 

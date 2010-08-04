@@ -1,6 +1,7 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+FizzBuzzSequence = function(start, end){
+    this.start = start;
+    this.end = end;
+    return start;
+}
 
 
