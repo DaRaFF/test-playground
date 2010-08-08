@@ -1,31 +1,25 @@
 <?php
+
 require_once 'FizzBuzz.php';
-class FizzBuzzSequence{
-    public $oFizzBuzz;
+
+class FizzBuzzSequence {
+
+    private $oFizzBuzz;
 
     function __construct() {
-		$this->oFizzBuzz = new FizzBuzz();
+        $this->oFizzBuzz = new FizzBuzz();
     }
-    public function getFizzBuzzSequence($startSequence, $stopSequence){
-		$sequence = "";
 
-		if($stopSequence === null){
-			$stopSequence = $startSequence;
-		}
+    public function getFizzBuzzSequence($start, $stop) {
+        $calculatedString = "";
 
-		for($i=$startSequence;$i<=$stopSequence;$i++){
-			$sequence = $sequence.$this->oFizzBuzz->getFizzBuzzValueOf($i);
-			if(!$this->isLastValueOfSequence($i,$stopSequence)){
-				$sequence = $sequence.',';
-			}
-		}
+        for ($i = $start; $i <= $stop; $i++) {
+            $arr[] = $this->oFizzBuzz->getFizzBuzzValueOf($i);
+        }
 
-		return $sequence;
+        $calculatedString = implode(",", $arr);
+
+        return $calculatedString;
     }
-    public function isLastValueOfSequence($value, $lastValueOfSequence){
-		if($value == $lastValueOfSequence){
-			return true;
-		}
-    }
+
 }
-?>

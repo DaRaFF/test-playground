@@ -1,4 +1,4 @@
-FizzBuzzSequence = function(start, end){
+var FizzBuzzSequence = function(start, end){
     var start = start;
     var end = end;
     var calculatedString = '';
@@ -6,7 +6,8 @@ FizzBuzzSequence = function(start, end){
     (function(){
         var arr = [];
         for (i = start; i <= end; i++) {
-            arr.push(i);
+            var value = FizzBuzz.getFizzBuzzValueOf(i);
+            arr.push(value);
             calculatedString = arr.join(',');
         }
     }());

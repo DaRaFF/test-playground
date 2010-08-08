@@ -3,19 +3,16 @@
 class FizzBuzz {
 
     public function getFizzBuzzValueOf($value) {
-        $fizzBuzzReturnValue = $value;
+        if ($value % 15 === 0) {
+            return  "FizzBuzz";
+        }
         if ($value % 3 === 0) {
-            $fizzBuzzReturnValue = "Fizz";
+            return "Fizz";
         }
         if ($value % 5 === 0) {
-            $fizzBuzzReturnValue = "Buzz";
+            return  "Buzz";
         }
-        if ($value % 15 === 0) {
-            $fizzBuzzReturnValue = "FizzBuzz";
-        }
-
-        return $fizzBuzzReturnValue;
+        return $value;
     }
 
 }
-
