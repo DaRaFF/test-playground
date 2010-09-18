@@ -4,17 +4,17 @@ require_once 'FizzBuzz.php';
 
 class FizzBuzzSequence {
 
-    private $oFizzBuzz;
+    private $_fizzBuzz;
 
     function __construct() {
-        $this->oFizzBuzz = new FizzBuzz();
+        $this->_fizzBuzz = new FizzBuzz();
     }
 
     public function getFizzBuzzSequence($start, $stop) {
         $calculatedString = "";
 
         for ($i = $start; $i <= $stop; $i++) {
-            $arr[] = $this->oFizzBuzz->getFizzBuzzValueOf($i);
+            $arr[] = $this->_fizzBuzz->getFizzBuzzValueOf($i);
         }
 
         $calculatedString = implode(",", $arr);

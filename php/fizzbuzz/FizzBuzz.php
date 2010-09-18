@@ -2,17 +2,17 @@
 
 class FizzBuzz {
 
-    public function getFizzBuzzValueOf($value) {
-        if ($value % 15 === 0) {
+    public function getFizzBuzzValueOf($number) {
+        if ($number % 15 === 0) {
             return  "FizzBuzz";
         }
-        if ($value % 3 === 0) {
+        if ($number % 3 === 0) {
             return "Fizz";
         }
-        if ($value % 5 === 0) {
+        if ($number % 5 === 0) {
             return  "Buzz";
         }
-        return $value;
+        return $number;
     }
 
 }
