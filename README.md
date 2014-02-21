@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/DaRaFF/test-playground.png?branch=master)](https://travis-ci.org/DaRaFF/test-playground)
+
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/DaRaFF/test-playground/badges/quality-score.png?s=736db95928da580f8bce512dd800d21ee2d83cb3)](https://scrutinizer-ci.com/g/DaRaFF/test-playground/)
 
 
