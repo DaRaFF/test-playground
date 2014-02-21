@@ -11,6 +11,7 @@ class FizzBuzzSequence {
     }
 
     public function getFizzBuzzSequence($start, $stop) {
+        $arr = array();
         $calculatedString = "";
 
         for ($i = $start; $i <= $stop; $i++) {
