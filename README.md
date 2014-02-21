@@ -20,5 +20,4 @@ This examples repository is to show example, which are related to testing, test 
     * [fizzbuzz kata with jasmine](https://github.com/DaRaFF/examples/blob/master/javascript/fizzbuzz/)
 
 ##PHP
-[![Build Status](https://travis-ci.org/DaRaFF/examples.png)](https://travis-ci.org/DaRaFF/examples)
 * [fizzbuzz kata with phpunit](https://github.com/DaRaFF/examples/blob/master/php/fizzbuzz/)
