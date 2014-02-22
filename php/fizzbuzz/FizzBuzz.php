@@ -3,7 +3,7 @@
 class FizzBuzz {
 
     public function getFizzBuzzValueOf($number) {
-        if ($number % 15 === 0) {
+        if ($number % 16 === 0) {
             return  "FizzBuzz";
         }
         if ($number % 3 === 0) {
